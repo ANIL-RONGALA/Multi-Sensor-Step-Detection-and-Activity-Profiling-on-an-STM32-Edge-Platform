@@ -46,29 +46,30 @@ HAL / LL drivers suitable for the selected STM32 family
 
 Note: FreeRTOS remains free; ensure the project uses the official FreeRTOS kernel (MIT licence) and that the toolchain supports it.
 
-📥 4. Installation & Setup
+## 📥 4. Installation & Setup
 ---
-Step 1 – Install STM32CubeIDE
+### Step 1 – Install STM32CubeIDE
 
 Download and install from ST’s official site. Add support for your MCU/board.
 
-Step 2 – Clone the Repository
+### Step 2 – Clone the Repository
 git clone https://github.com/ANIL-RONGALA/Step-Counter-Pedometer-STM32-Embedded-System.git
 
-Step 3 – Open the Project
+### Step 3 – Open the Project
 
 In STM32CubeIDE: File → Import → STM32 Project → navigate to the cloned folder.
 
-Step 4 – Build and Flash
+### Step 4 – Build and Flash
 
 Select the correct board/target, build the project, flash into the MCU, and monitor via UART or display.
 
-Step 5 – Use the Device
+### Step 5 – Use the Device
 
 Power the device, allow it to detect steps. The display will update live metrics; the UART/USB output will provide logs for step count, distance, calories.
 
-📁 5. Repository Structure
+## 📁 5. Repository Structure
 ---
+```
 Step-Counter-Pedometer-STM32-Embedded-System/
 │
 ├── Core/                # source files (FreeRTOS tasks, drivers)
@@ -76,8 +77,9 @@ Step-Counter-Pedometer-STM32-Embedded-System/
 ├── 3rdParty/FreeRTOS/   # FreeRTOS kernel port
 ├── .project / .cproject # IDE project metadata
 ├── README.md            # (this file)
+```
 
-🎯 6. System Behavior & Features
+## 🎯 6. System Behavior & Features
 ---
 Step Detection Algorithm: Uses accelerometer/gyro readings to detect human steps in real-time.
 
@@ -91,7 +93,7 @@ UART/USB Logging: Outputs metrics for host monitoring or data logging.
 
 FreeRTOS Integration: Tasks configured for sensor sampling, display update, and logging — achieving real-time responsiveness and low latency.
 
-🛠️ 7. Recreating the Project for Your Own Research
+## 🛠️ 7. Recreating the Project for Your Own Research
 ---
 Fork/clone this repository.
 
@@ -105,7 +107,7 @@ Build, flash, and test on your hardware.
 
 Extend the project by adding new sensors (e.g., heart-rate monitor), BLE connectivity, or advanced analytics.
 
-🚀 8. Future Scope & Research Extensions
+## 🚀 8. Future Scope & Research Extensions
 ---
 Wearable Health Analytics: Integrate heart-rate, SpO₂, and movement intensity classification to create a full-suite fitness wearable.
 
@@ -115,13 +117,13 @@ IoT & Cloud Integration: Add BLE/WiFi connectivity to upload metrics to cloud da
 
 Drone Motion Analytics: Adapt the architecture (step detection → motion detection) into a UAV context: accelerometer for vibration, IMU fusion for flight analytics, FreeRTOS tasks for flight control loops.
 
-📘 9. Suggested GitHub Repository Name
+## 📘 9. Suggested GitHub Repository Name
 ---
 STM32-StepCounter-FreeRTOS
 
 Clear, descriptive, and suitable for academic portfolios.
 
-📝 10. Acknowledgments
+## 📝 10. Acknowledgments
 ---
 This project was developed using embedded systems best practices, combines sensor processing, real-time operating system architecture, and hardware-software co-design under the guidance of [Dr. Yuha Chen](https://www.ece.uh.edu/faculty/chen-yuhua), Department of Electrical and Computer Engineering, University of Houston.
 
