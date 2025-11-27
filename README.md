@@ -114,7 +114,7 @@ Clear, descriptive, and suitable for academic portfolios.
 
 📝 10. Acknowledgments
 
-This project was developed using embedded systems best practices, combines sensor processing, real-time operating system architecture, and hardware-software co-design.
+This project was developed using embedded systems best practices, combines sensor processing, real-time operating system architecture, and hardware-software co-design under the guidance of [Dr. Yuha Chen](https://www.ece.uh.edu/faculty/chen-yuhua), Department of Electrical and Computer Engineering, University of Houston.
 
 Note:
 A portion of the documentation structure and wording was enhanced using AI tools for clarity.
