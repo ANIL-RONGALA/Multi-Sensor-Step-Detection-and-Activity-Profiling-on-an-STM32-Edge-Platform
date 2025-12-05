@@ -1,6 +1,6 @@
 #🚶 Step Counter & Pedometer on STM32 with FreeRTOS
 
-An embedded systems project implementing real-time step detection, distance and calories measurement, and live telemetry using an STM32 microcontroller and FreeRTOS task scheduling.
+An embedded systems project implementing real-time step detection, distance and calories measurement, and live telemetry using an STM32 microcontroller and FreeRTOS task scheduling
 
 ## 📌 1. Overview
 ---
